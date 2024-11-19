@@ -1,0 +1,19 @@
+Database structure 
+
+tbl_Category (CategoryId, CategoryName, PhotoUrl)
+
+tbl_Product (ProductId, CategoryId, ProductName, PhotoUrl, Price, Qty, TAX, Disc, ShortDescription, FullDescription, OfferPrice, IsOffer, IsBlocked)
+
+tbl_Customer (CustomerId, CustomerName, Mobile, Email, Password)
+
+tbl_Cart (CartId, ProductId, Qty, CustomerID)
+
+tbl_OrderMaster(OMID, CustomerId, OrderDate, TotalAmount, TAX, Disc, NetAmount, DA_Name, DA_Email, DA_Mobile, DA_Address,BA_Name, BA_Email, BA_Mobile, BA_Address, Status )
+
+tbl_OrderDetails (ODId, OMID, ProductId, Qty, Price)
+
+
+
+
+
+
